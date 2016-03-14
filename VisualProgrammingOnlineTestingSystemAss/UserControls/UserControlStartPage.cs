@@ -30,6 +30,8 @@ namespace VisualProgrammingOnlineTestingSystemAss.UserControls
                 labelDescription.MaximumSize = groupBoxDescription.Size;
                 labelRules.MaximumSize = groupBoxRules.Size;
             };
+            
+            parent.Size = new Size(this.Width,this.Height + 75);
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
