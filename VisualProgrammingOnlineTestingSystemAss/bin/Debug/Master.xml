@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Quantum mechanics</Name>
-  <Description>A test of your quant knowledge, this exam will be grueling, difficult and almost impossible. we expect 75% of students to fail. you will be examined on knowledge, and flare for the subject.</Description>
-  <Rules>no cheating 
+  <Name>Cheese and associated lactose products 101</Name>
+  <Description>A test of your cheese knowledge. </Description>
+  <Rules>The rules of cheese testing are as follows:
 • NO CHEATING 
 • NO CHEATING 
 • NO CHEATING 
-• NO CHEATING</Rules>
+• NO CHEATING
+Cheaters will have their exam results cancelled.
+There is a 5 minute time limit.</Rules>
   <TimeLimit>300</TimeLimit>
   <CurrentTime>0</CurrentTime>
   <Questions>
     <Question>
-      <QuestionText>First Question</QuestionText>
+      <QuestionText>When was cheese approximately developed?</QuestionText>
       <Flagged>false</Flagged>
       <FlagCount>0</FlagCount>
       <AttemptCount>0</AttemptCount>
       <AttemptLimit>9999</AttemptLimit>
       <QuestionChoices>
         <QuestionChoice>
-          <ChoiceText>Without a doubt the worst jedi i have ever seen</ChoiceText>
+          <ChoiceText>1800 CE</ChoiceText>
           <Correct>false</Correct>
         </QuestionChoice>
         <QuestionChoice>
-          <ChoiceText>Mammal</ChoiceText>
+          <ChoiceText>5000 BCE</ChoiceText>
           <Correct>false</Correct>
         </QuestionChoice>
         <QuestionChoice>
-          <ChoiceText>answer 3</ChoiceText>
+          <ChoiceText>1000 BCE</ChoiceText>
           <Correct>false</Correct>
         </QuestionChoice>
         <QuestionChoice>
-          <ChoiceText>answer 4</ChoiceText>
+          <ChoiceText>Prehistory</ChoiceText>
           <Correct>true</Correct>
         </QuestionChoice>
       </QuestionChoices>
@@ -42,57 +44,69 @@
       <MultipleChoice>true</MultipleChoice>
     </Question>
     <Question>
-      <QuestionText>Second Question</QuestionText>
+      <QuestionText>What Milk sources are commonly used for cheese production?</QuestionText>
       <Flagged>false</Flagged>
       <FlagCount>0</FlagCount>
       <AttemptCount>0</AttemptCount>
       <AttemptLimit>9999</AttemptLimit>
-      <QuestionChoices>
-        <QuestionChoice>
-          <ChoiceText>answer 1</ChoiceText>
-          <Correct>false</Correct>
-        </QuestionChoice>
-        <QuestionChoice>
-          <ChoiceText>answer 2</ChoiceText>
-          <Correct>false</Correct>
-        </QuestionChoice>
-        <QuestionChoice>
-          <ChoiceText>answer 3</ChoiceText>
+      <QuestionChoices>    
+		<QuestionChoice>
+          <ChoiceText>Goats</ChoiceText>
           <Correct>true</Correct>
         </QuestionChoice>
-        <QuestionChoice>
-          <ChoiceText>answer 4</ChoiceText>
+		<QuestionChoice>
+          <ChoiceText>Dolphin</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Hamster</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Cows</ChoiceText>
           <Correct>true</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Sheep</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Dog</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Human</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Horse</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Buffalo</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Pig</ChoiceText>
+          <Correct>false</Correct>
         </QuestionChoice>
       </QuestionChoices>
       <FlagLimit>9999</FlagLimit>
-      <MarksAvailable>10</MarksAvailable>
+      <MarksAvailable>8</MarksAvailable>
       <MarksGained>0</MarksGained>
-      <NoChoicesRequired>2</NoChoicesRequired>
+      <NoChoicesRequired>4</NoChoicesRequired>
       <StudentChoices />
       <MultipleChoice>true</MultipleChoice>
     </Question>
     <Question>
-      <QuestionText>Third Question</QuestionText>
+      <QuestionText>What Latin word is the modern word "Cheese" derived from?</QuestionText>
       <Flagged>false</Flagged>
       <FlagCount>0</FlagCount>
       <AttemptCount>0</AttemptCount>
       <AttemptLimit>9999</AttemptLimit>
       <QuestionChoices>
         <QuestionChoice>
-          <ChoiceText>answer 1</ChoiceText>
-          <Correct>false</Correct>
-        </QuestionChoice>
-        <QuestionChoice>
-          <ChoiceText>answer 2</ChoiceText>
-          <Correct>false</Correct>
-        </QuestionChoice>
-        <QuestionChoice>
-          <ChoiceText>answer 3</ChoiceText>
-          <Correct>false</Correct>
-        </QuestionChoice>
-        <QuestionChoice>
-          <ChoiceText>answer 4</ChoiceText>
+          <ChoiceText>caseus</ChoiceText>
           <Correct>true</Correct>
         </QuestionChoice>
       </QuestionChoices>
@@ -102,6 +116,216 @@
       <NoChoicesRequired>1</NoChoicesRequired>
       <StudentChoices />
       <MultipleChoice>false</MultipleChoice>
+    </Question>
+	<Question>
+      <QuestionText>Which character was described as storing cheese in Homer's Odyssey?</QuestionText>
+      <Flagged>false</Flagged>
+      <FlagCount>0</FlagCount>
+      <AttemptCount>0</AttemptCount>
+      <AttemptLimit>9999</AttemptLimit>
+      <QuestionChoices>
+        <QuestionChoice>
+          <ChoiceText>Polyphemus</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Cyclops</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+      </QuestionChoices>
+      <FlagLimit>9999</FlagLimit>
+      <MarksAvailable>1</MarksAvailable>
+      <MarksGained>0</MarksGained>
+      <NoChoicesRequired>1</NoChoicesRequired>
+      <StudentChoices />
+      <MultipleChoice>false</MultipleChoice>
+    </Question>
+	<Question>
+      <QuestionText>Where did the first factory for industrial cheese production open?</QuestionText>
+      <Flagged>false</Flagged>
+      <FlagCount>0</FlagCount>
+      <AttemptCount>0</AttemptCount>
+      <AttemptLimit>9999</AttemptLimit>
+      <QuestionChoices>
+        <QuestionChoice>
+          <ChoiceText>U.S.A</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>England</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Switzerland</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Belgium</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+      </QuestionChoices>
+      <FlagLimit>9999</FlagLimit>
+      <MarksAvailable>1</MarksAvailable>
+      <MarksGained>0</MarksGained>
+      <NoChoicesRequired>1</NoChoicesRequired>
+      <StudentChoices />
+      <MultipleChoice>true</MultipleChoice>
+    </Question>
+	<Question>
+      <QuestionText>Which of these are real cheeses?</QuestionText>
+      <Flagged>false</Flagged>
+      <FlagCount>0</FlagCount>
+      <AttemptCount>0</AttemptCount>
+      <AttemptLimit>9999</AttemptLimit>
+      <QuestionChoices>
+        <QuestionChoice>
+          <ChoiceText>Swiss</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Cheddar</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Mozzarella</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Cottage</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Bellini</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Beta</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Feta</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>4 Seasons</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+      </QuestionChoices>
+      <FlagLimit>9999</FlagLimit>
+      <MarksAvailable>5</MarksAvailable>
+      <MarksGained>0</MarksGained>
+      <NoChoicesRequired>5</NoChoicesRequired>
+      <StudentChoices />
+      <MultipleChoice>true</MultipleChoice>
+    </Question>
+	<Question>
+      <QuestionText>Which country Consumes the most cheese per capita? (data from 2011)</QuestionText>
+      <Flagged>false</Flagged>
+      <FlagCount>0</FlagCount>
+      <AttemptCount>0</AttemptCount>
+      <AttemptLimit>9999</AttemptLimit>
+      <QuestionChoices>
+        <QuestionChoice>
+          <ChoiceText>U.S.A</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Germany</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Japan</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>France</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>UK</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Iceland</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Switzerland</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+		<QuestionChoice>
+          <ChoiceText>Canada</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+      </QuestionChoices>
+      <FlagLimit>9999</FlagLimit>
+      <MarksAvailable>1</MarksAvailable>
+      <MarksGained>0</MarksGained>
+      <NoChoicesRequired>1</NoChoicesRequired>
+      <StudentChoices />
+      <MultipleChoice>true</MultipleChoice>
+    </Question>
+	<Question>
+      <QuestionText>Which of these is not a step in cheese production?</QuestionText>
+      <Flagged>false</Flagged>
+      <FlagCount>0</FlagCount>
+      <AttemptCount>0</AttemptCount>
+      <AttemptLimit>9999</AttemptLimit>
+      <QuestionChoices>
+        <QuestionChoice>
+          <ChoiceText>Curdling</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Curd Processing</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Ripening</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Culling</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+      </QuestionChoices>
+      <FlagLimit>9999</FlagLimit>
+      <MarksAvailable>1</MarksAvailable>
+      <MarksGained>0</MarksGained>
+      <NoChoicesRequired>1</NoChoicesRequired>
+      <StudentChoices />
+      <MultipleChoice>true</MultipleChoice>
+    </Question>
+	<Question>
+      <QuestionText>Which of these health hazards is largely attributed to cheese?</QuestionText>
+      <Flagged>false</Flagged>
+      <FlagCount>0</FlagCount>
+      <AttemptCount>0</AttemptCount>
+      <AttemptLimit>9999</AttemptLimit>
+      <QuestionChoices>
+		<QuestionChoice>
+          <ChoiceText>Heart Disease</ChoiceText>
+          <Correct>true</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Concussions</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Loss of Limb</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice>
+        <QuestionChoice>
+          <ChoiceText>Cancer</ChoiceText>
+          <Correct>false</Correct>
+        </QuestionChoice> 
+      </QuestionChoices>
+      <FlagLimit>9999</FlagLimit>
+      <MarksAvailable>1</MarksAvailable>
+      <MarksGained>0</MarksGained>
+      <NoChoicesRequired>1</NoChoicesRequired>
+      <StudentChoices />
+      <MultipleChoice>true</MultipleChoice>
     </Question>
   </Questions>
   <CurrentQuestion>0</CurrentQuestion>
