@@ -61,12 +61,13 @@
             this.treeViewQuestions.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeViewQuestions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.treeViewQuestions.HideSelection = false;
+            this.treeViewQuestions.Indent = 19;
             this.treeViewQuestions.Location = new System.Drawing.Point(3, 3);
-            this.treeViewQuestions.MinimumSize = new System.Drawing.Size(150, 4);
+            this.treeViewQuestions.MinimumSize = new System.Drawing.Size(175, 4);
             this.treeViewQuestions.Name = "treeViewQuestions";
             this.tableLayoutPanel1.SetRowSpan(this.treeViewQuestions, 2);
             this.treeViewQuestions.ShowLines = false;
-            this.treeViewQuestions.Size = new System.Drawing.Size(150, 474);
+            this.treeViewQuestions.Size = new System.Drawing.Size(175, 474);
             this.treeViewQuestions.TabIndex = 0;
             this.treeViewQuestions.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -81,11 +82,11 @@
             this.tableLayoutPanel2.Controls.Add(this.buttonFlag, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.buttonNext, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(159, 448);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(184, 448);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(350, 29);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(325, 29);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // buttonPrevious
@@ -93,7 +94,7 @@
             this.buttonPrevious.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.buttonPrevious.Location = new System.Drawing.Point(3, 3);
             this.buttonPrevious.Name = "buttonPrevious";
-            this.buttonPrevious.Size = new System.Drawing.Size(110, 23);
+            this.buttonPrevious.Size = new System.Drawing.Size(102, 23);
             this.buttonPrevious.TabIndex = 0;
             this.buttonPrevious.Text = "Previous";
             this.buttonPrevious.UseVisualStyleBackColor = true;
@@ -102,9 +103,9 @@
             // buttonFlag
             // 
             this.buttonFlag.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.buttonFlag.Location = new System.Drawing.Point(119, 3);
+            this.buttonFlag.Location = new System.Drawing.Point(111, 3);
             this.buttonFlag.Name = "buttonFlag";
-            this.buttonFlag.Size = new System.Drawing.Size(110, 23);
+            this.buttonFlag.Size = new System.Drawing.Size(102, 23);
             this.buttonFlag.TabIndex = 1;
             this.buttonFlag.Text = "Flag";
             this.buttonFlag.UseVisualStyleBackColor = true;
@@ -113,9 +114,9 @@
             // buttonNext
             // 
             this.buttonNext.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.buttonNext.Location = new System.Drawing.Point(235, 3);
+            this.buttonNext.Location = new System.Drawing.Point(219, 3);
             this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(112, 23);
+            this.buttonNext.Size = new System.Drawing.Size(103, 23);
             this.buttonNext.TabIndex = 2;
             this.buttonNext.Text = "Next";
             this.buttonNext.UseVisualStyleBackColor = true;
@@ -124,9 +125,9 @@
             // panelQuestion
             // 
             this.panelQuestion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelQuestion.Location = new System.Drawing.Point(159, 3);
+            this.panelQuestion.Location = new System.Drawing.Point(184, 3);
             this.panelQuestion.Name = "panelQuestion";
-            this.panelQuestion.Size = new System.Drawing.Size(350, 439);
+            this.panelQuestion.Size = new System.Drawing.Size(325, 439);
             this.panelQuestion.TabIndex = 2;
             // 
             // UserControlQuestionContainer

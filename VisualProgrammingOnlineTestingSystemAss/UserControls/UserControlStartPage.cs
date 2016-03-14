@@ -32,6 +32,16 @@ namespace VisualProgrammingOnlineTestingSystemAss.UserControls
             };
         }
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Enter)
+            {
+                buttonStart.PerformClick();
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
         private void buttonStart_Click(object sender, EventArgs e)
         {
             //real validation would be needed in production, but this is ok for a test, we would need access to the school systems student database for proper validation
