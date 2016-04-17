@@ -212,7 +212,7 @@ namespace VisualProgrammingOnlineTestingSystemAss.QuestionClasses
             questionChoices.Add(choice);
         }
         /// <summary>
-        /// Toggle whether the question is flagged or not, als handles flag limit
+        /// Toggle whether the question is flagged or not, also handles flag limit
         /// </summary>
         public void ToggleFlag()
         {
